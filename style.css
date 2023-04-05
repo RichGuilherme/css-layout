@@ -1,0 +1,242 @@
+@import url("/reset.css");
+
+body{
+    background-color: black; 
+}
+
+/* header */
+
+header{
+    position: relative;
+
+    height: 606px;
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+   
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assert/banner.png');
+}
+
+.banner .banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+    margin: auto;
+    padding: 30px;
+
+    height: 606px;
+    
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner-container .logo{
+    border-radius: 50% 50%;
+    
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.logo > img{
+    height: 214px;
+    width: 248px;
+}
+
+.banner-container h1{ 
+    font-family: 'Raleway';
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-transform: uppercase;
+    
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    background-clip: text;
+}
+.banner-container p{
+    width: 510px;
+    height: 46px; 
+
+    line-height: 24px;
+    color: #fff;
+
+    font-size: 20px;
+    font-family: 'Raleway';
+
+    text-align: center;
+}
+.banner-container button{
+    height: 60px;
+    width: 320px;
+
+    border: 2px solid ;
+
+    border-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    border-image-slice: 1;
+
+    background-color: transparent;
+
+    color: #31A8DD;
+
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    letter-spacing: 0.21em;
+    font-weight: 1000;
+}
+
+
+/* main */
+/* Section */
+#conteudo-do-curso{
+    max-width: 1440px;
+
+    margin: 100px auto; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+#conteudo-do-curso h1{
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+
+    color: #33A8DB;
+}
+
+#conteudo-do-curso > p{
+    margin-top: 7px;
+
+    width: 792px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    line-height: 19px;
+    text-align: center;
+
+    color: #fff;
+}
+
+.container-conteudo{
+    background-color: #252525;
+
+    border: 1px solid #33A8DB;
+    border-radius: 50px;
+
+    width: 535px;
+    height: 51px;
+    
+    padding-top: 16px;
+    margin-top: 10px;
+
+    text-align: center;
+    color: #fff;
+
+    box-shadow: -2px 6px 4px inset rgb(0, 0, 0, 40%);
+}
+.container-conteudo p > span{
+    color: #33A8DB;
+}
+
+/* Section */
+#transfome-mundo{
+    position: relative;
+
+    background-image: url("/assert/woman-code.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 363px;
+    width: min(100%, 1440px);
+
+    margin-inline: auto;
+
+    border: 2px solid #33A8DB;
+    border-left: none;
+    border-right: none;
+}
+#transfome-mundo p{
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    left: 90px;
+    top: 105px;
+
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 900;
+
+    color: #fff;
+
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+/* section */
+#profissional-desafios{
+    width: min(100%, 1440px);
+
+    margin-inline: auto;
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+ 
+    border-bottom: 2px solid #33A8DB;
+}
+#profissional-desafios h1{
+    width: 752px;
+    height: 76px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.19em;
+    line-height: 38px;
+    text-align: center;
+
+    color: #33A8DB;
+}
+#profissonal-desafios .container-imagemProfessinal-challenges{
+    max-width: 659px;
+    max-height: 429px;
+}
+#profissional-desafios p{
+    width: 792px;
+    height: 76px;
+
+    text-align: center;
+    line-height: 19px;
+
+    color: #fff;
+}
+
+footer{
+    width: min(100%, 1440px);
+    height: 170px;
+    margin-inline: auto;
+    padding-top: 40px;
+
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 20%, rgba(51, 168, 219, 0.1) 99.99%, rgba(51, 168, 219, 0.1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+
+    color: #fff;
+}
